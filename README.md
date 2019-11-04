@@ -72,7 +72,7 @@ Get the correct USB-port:
 
   * Run cmd as admin
   * Type in the command `wmic path Win32_SerialPort` to check which port the USB is using (COMX).
-  * In the beginning of the python script, the COM-port is specified. Change the port to the one it is said is being used when you run above command if needed (COM5 and COM3 is common).
+  * In the beginning of the "microbit.py" file, the COM-port is specified in the code. Change the port to the one it is said is being used when you run above command if needed (COM5 and COM3 and COM7 is common).
 
 To run script:
 
@@ -93,21 +93,21 @@ To connect to localhost (local server on your computer) you will have to navigat
 You will be using the terminal Cygwin for this. 
 
 Cygwin commands to navigate 
----
+
   * Navigates to the homepath:  `cd $HOMEPATH`
   
   * Navigate to folder name_Of_Folder:  `cd name_Of_Folder`
   
   * Navigate back one folder:  `cd ..`
   
-  * Run Javascript file in Nodejs:  `node filename.js`
+  * Run Javascript file in Node.js:  `node filename.js`
   
 
 Path to file "C:/Users/.../kmom05/eshop1/"
 
 
 Instructions
----
+
 
   * Run Cygwin as administor
   * Navigate to the folder "C:/Users/.../kmom05/eshop1/"
