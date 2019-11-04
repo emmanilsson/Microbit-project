@@ -24,23 +24,31 @@ Programming languages used:
 
 ## Quick quide
   
+  Here you can find a quick guide to conclude the more detailed steps below to setup the project.
+
   * Download all the necessary software
   * Make sure you have the required hardware
   * Download the .zip file
   * Flash scripts to the micro:bit sensors
-  * Run Python script for logging to the database
+  * Run the python script "microbit.py" for logging to the database
   * Start up server in Cygwin
   * Open browser to use web application
 
 ## Get started!
 
-Start by downloading all the necessary files for the project. This includes the folder named "kmom05", the six scripts for the micro:bit sensors ("reciever.py", "senderXXX.py").
+Start by downloading the node modules for Javascript and Nodejs, you do this by installing Node.js and npm from the official website
+https://nodejs.org/en/download/. 
+You can verify that it works by running the command `node --version` and  `npm --version`.
+
+Now you can download all the necessary files for the project. This includes the folder named "kmom05", the six scripts for the micro:bit sensors ("reciever.py", "senderXXX.py") and the "microbit.py" file on GitHub.
+
 
 Download the .zip file containing the following files/folders:
 
   * kmom05
   * all scripts for the sensors ("reciever.py" and "sensorXXX.py")
   * microbit.py
+
 
 
 
@@ -58,12 +66,19 @@ The script for the senders you shall flash to the sending micro:bit sensors. The
 ## Run script to log data to database 
 
 The data recieved is handled by a script written in regular Python. The data is logged to the database via this script and it is ran in cmd. 
+The data is streamed through the USB-port and it is therefor essential to specify the right port, a guide for that follows below.
 
-To run this:
+Get the correct USB-port:
 
-  * Open cmd in administer
+  * Run cmd as admin
   * Type in the command `wmic path Win32_SerialPort` to check which port the USB is using (COMX).
   * In the beginning of the python script, the COM-port is specified. Change the port to the one it is said is being used when you run above command if needed (COM5 and COM3 is common).
+
+To run script:
+
+   * Run cmd as admin
+   * Navigate in cmd to the folder where the "microbit.py" file is
+   * Use the command `python microbit.py` to run script
 
 Once you have done this, the script will log the data that is is recieving to the database and you will be able to view this on the web application. 
 
@@ -79,14 +94,14 @@ You will be using the terminal Cygwin for this.
 
 Cygwin commands to navigate 
 ---
-  * `cd $HOMEPATH`
-  (Navigates to the homepath)
-  * `cd name_Of_Folder`
-  (navigate to folder name_Of_Folder)
-  * `cd ..`
-  (navigate back one folder)
-  * `node filename.js`
-  (run Javascript file in Nodejs)
+  * Navigates to the homepath:  `cd $HOMEPATH`
+  
+  * Navigate to folder name_Of_Folder:  `cd name_Of_Folder`
+  
+  * Navigate back one folder:  `cd ..`
+  
+  * Run Javascript file in Nodejs:  `node filename.js`
+  
 
 Path to file "C:/Users/.../kmom05/eshop1/"
 
