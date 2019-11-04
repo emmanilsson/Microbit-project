@@ -1,15 +1,6 @@
 Instructions for setting up project
 =======
 
-## Sub-heading
-
-This README-file includes instructions on how to set up my project on your own machine. 
-
-Paragraphs are separated
-by a blank line.
-
-Two spaces at the end of a line  
-produces a line break.
 
 ## What you will need 
 
@@ -31,9 +22,19 @@ Programming languages used:
   * Javascript
 
 
+## Quick quide
+  
+  * Download all the necessary software
+  * Make sure you have the required hardware
+  * Download the .zip file
+  * Flash scripts to the micro:bit sensors
+  * Run Python script for logging to the database
+  * Start up server in Cygwin
+  * Open browser to use web application
+
 ## Get started!
 
-Start by downloading all the necessary files for the project. This includes the folder named "kmom05", the six scripts for the micro:bit sensors ("reciever", "senderXXX").
+Start by downloading all the necessary files for the project. This includes the folder named "kmom05", the six scripts for the micro:bit sensors ("reciever.py", "senderXXX.py").
 
 Download the .zip file containing the following files/folders:
 
@@ -78,13 +79,13 @@ You will be using the terminal Cygwin for this.
 
 Cygwin commands to navigate 
 ---
-  * cd $HOMEPATH
+  * `cd $HOMEPATH`
   (Navigates to the homepath)
-  * cd name_Of_Folder
+  * `cd name_Of_Folder`
   (navigate to folder name_Of_Folder)
-  * cd ..
+  * `cd ..`
   (navigate back one folder)
-  * node filename.js
+  * `node filename.js`
   (run Javascript file in Nodejs)
 
 Path to file "C:/Users/.../kmom05/eshop1/"
