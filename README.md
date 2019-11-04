@@ -93,6 +93,7 @@ To connect to localhost (local server on your computer) you will have to navigat
 You will be using the terminal Cygwin for this. 
 
 **Cygwin commands to navigate**
+---
 
   * Navigates to the homepath:  `cd $HOMEPATH`
   
