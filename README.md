@@ -92,7 +92,7 @@ node modules, DOWNLOAD NODE! run commands etcetera ;)
 To connect to localhost (local server on your computer) you will have to navigate to the path of the project folder on your computer. The file you want to run is "index.js".
 You will be using the terminal Cygwin for this. 
 
-Cygwin commands to navigate 
+**Cygwin commands to navigate**
 
   * Navigates to the homepath:  `cd $HOMEPATH`
   
@@ -106,7 +106,7 @@ Cygwin commands to navigate
 Path to file "C:/Users/.../kmom05/eshop1/"
 
 
-Instructions
+**Instructions**
 
 
   * Run Cygwin as administor
