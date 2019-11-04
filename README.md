@@ -24,7 +24,7 @@ Programming languages used:
 
 ## Quick quide
   
-  Here you can find a quick guide to conclude the more detailed steps below to setup the project.
+  Here you can find a quick guide to the more detailed steps below to setup the project.
 
   * Download all the necessary software
   * Make sure you have the required hardware
@@ -115,32 +115,3 @@ Instructions
   * Use a browser of your choice and type in "http://localhost:1337/eshop/index" in the search bar to get to the web application
 
 You should now be connected and can now use the web application as you please.
-
-
-
-Text attributes _italic_, 
-**bold**, `monospace`.
-
-Horizontal rule:
-
----
-
-Bullet list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. lather
-  2. rinse
-  3. repeat
-
-An [example](http://example.com).
-
-![Image](Icon-pictures.png "icon")
-
-> Markdown uses email-style > characters for blockquoting.
-
-Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
