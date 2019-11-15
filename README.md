@@ -40,7 +40,9 @@ Start by downloading the node modules for Javascript and Nodejs, you do this by 
 https://nodejs.org/en/download/. 
 You can verify that it works by running the command `node --version` and  `npm --version`.
 
-Now you can download all the necessary files for the project. This includes the folder named "kmom05", the six scripts for the micro:bit sensors ("reciever.py", "senderXXX.py") and the "microbit.py" file on GitHub.
+You also need to run the command `npm install` to install all the necessary node modules for Node.js.
+
+Now you can download all the necessary files for the project. This includes the folder named "Microbit_project" which contains "kmom05" for the webbapplication, the folder named "Microbit" with a python script described further below. Lastly, there is the sql-file for the database and a folder namned "Sensor scripts" containing the six scripts for the micro:bit sensors ("reciever.py", "senderXXX.py") 
 
 
 Download the .zip file containing the following files/folders:
@@ -48,7 +50,11 @@ Download the .zip file containing the following files/folders:
   * kmom05
   * all scripts for the sensors ("reciever.py" and "sensorXXX.py")
   * microbit.py
+  * database_tables_procedures.sql
 
+
+First you need to extract the .zip-file.
+After that, in order for the database to work, you need to run the .sql file "database_tables_procedures.sql" in MySQL so you have the database working on your machine. 
 
 
 
@@ -103,14 +109,14 @@ You will be using the terminal Cygwin for this.
   * Run Javascript file in Node.js:  `node filename.js`
   
 
-Path to file "C:/Users/.../kmom05/eshop1/"
+Path to file "C:/Users/.../Microbit_project/kmom05/eshop1/"
 
 
 **Instructions**
 
 
   * Run Cygwin as administor
-  * Navigate to the folder "C:/Users/.../kmom05/eshop1/"
+  * Navigate to the folder "C:/Users/.../Microbit_project/kmom05/eshop1/"
   * Run command `node index.js` in above folder to start up the web server
   * Use a browser of your choice and type in "http://localhost:1337/eshop/index" in the search bar to get to the web application
 
